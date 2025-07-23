@@ -69,21 +69,29 @@ img {
 /* fonts */
 
 @font-face {
-    font-family: '';
-    src: url('') format('woff2');
+    font-family: 'Actay';
+    src: url('/src/assets/fonts/Actay-Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ActayWide';
+    src: url('/src/assets/fonts/ActayWide-Bold.otf') format('opentype');
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-}
+}  
 
 /* common */
 body {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.18;
-    font-family: '', sans-serif;
-    color: var(--black-100);
-    background-color: var(--white);
+    font-family: 'Actay', sans-serif;
+    color: var(--white);
+    background-color: #3b4021;
     overflow-x: hidden;
 }
 
@@ -156,17 +164,21 @@ section a {
 /* variables */
 
 :root {
+
+    --main-font: 'Actay', sans-serif;
+    --second-font: 'ActayWide', sans-serif;
+
     --max-width: 1160px;
 
     --black: #000000;
     --white: #FFFFFF;
 
-    --primary-500: #1F8B48;
-    --hover: #105c2d;
+    --primary-500: #5E7600;
+    --hover: #435300;
 
     --black-100: #131312;
 
-    --grey-100: #F6F6F6;
+    --light-100: #F6FFD2;
 
     /* border radius */
     --br--5: 5px;

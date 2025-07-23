@@ -1,2 +1,7 @@
 @use "./common/common";
+@use "./lib/slick";
+// @use "./lib/slick-theme";
+
 @use "./blocks/header";
+@use "./blocks/mobile-menu";
+@use "./blocks/hero";
